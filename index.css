@@ -21,16 +21,23 @@ body {
   top: 2rem;
 }
 .next-game {
-  width: 9rem;
+  width: 8rem;
   align-self: center;
   position: relative;
-  top: 6rem;
-  height: 3rem;
+  top: 10rem;
+  margin: auto;
+  height: 2rem;
   border-radius: 4rem;
   font-family: sans-serif;
   background-color: pink;
   margin: auto;
-  left: 40rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+
   z-index: 2;
 }
 .players {
@@ -72,7 +79,7 @@ body {
   align-self: center;
   font-size: 3rem;
   margin: auto;
-  color: #c7365f);
+  color: #c7365f;
 }
 .space {
   width: 15rem;
@@ -90,33 +97,24 @@ body {
   margin: auto;
   border-radius: 1rem;
 }
-.rolldice {
+
+.btn {
   width: 8rem;
   align-self: center;
   position: relative;
-  justify-content: center;
-  text-align: center;
-  justify-self: center;
-  height: 2.5rem;
-  border-radius: 4rem;
-  background-color: pink;
-  left: 40.5rem;
-  z-index: 2;
-  bottom: 15rem;
-}
-.hold {
-  width: 5rem;
-  align-self: center;
-  height: 2.5rem;
   bottom: 12rem;
+  margin: auto;
+  height: 2rem;
   border-radius: 4rem;
+  font-family: sans-serif;
   background-color: pink;
-  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-self: center;
   justify-content: center;
-  text-align: center;
   justify-self: center;
-  left: 33.4rem;
-  z-index: 2;
 }
 #current--0 {
   font-size: 3rem;
@@ -125,11 +123,14 @@ body {
   font-size: 3rem;
 }
 .image {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
   align-self: center;
   position: relative;
-  bottom: 25rem;
+  margin: auto;
+  bottom: 30rem;
   width: 5rem;
-  left: 28.5rem;
   z-index: 2;
 }
 .hidden {
@@ -141,4 +142,7 @@ body {
 .player--winner {
   background-color: rgb(89, 89, 89);
   color: #c7365f;
+}
+.rolldice {
+  bottom: 13rem;
 }
